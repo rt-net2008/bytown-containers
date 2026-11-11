@@ -1,0 +1,3 @@
+Q1: The file only existed in that container, so it was deleted when the container was deleted.
+Q2: The web service does not need an exposed port because the proxy service redirects to the web service.
+Q3: An image contains what is needed to run a container.

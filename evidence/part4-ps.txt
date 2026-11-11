@@ -1,0 +1,3 @@
+NAME            IMAGE              COMMAND                  SERVICE   CREATED          STATUS          PORTS
+stack-proxy-1   nginx:alpine       "/docker-entrypoint.…"   proxy     22 seconds ago   Up 21 seconds   0.0.0.0:8329->80/tcp, [::]:8329->80/tcp
+stack-web-1     bytown-web:stack   "/docker-entrypoint.…"   web       22 seconds ago   Up 21 seconds   80/tcp
